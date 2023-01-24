@@ -1,6 +1,6 @@
 import openai
 
-openai.api_key = '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'
+openai.api_key = ''
 prompt=input('Enter Your Command ')
 
 response = openai.Completion.create(
